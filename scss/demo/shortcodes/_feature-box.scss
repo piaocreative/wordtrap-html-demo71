@@ -1,0 +1,32 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: feature-box.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Featured Boxes
+-----------------------------------------------------------------*/
+.fboxs {
+	background-color: $theme-color;
+	padding: 2.5rem;
+	position: absolute;
+	bottom: 0;
+	width: 72.5%;
+
+	@include media-breakpoint-down(lg) {
+		width: 100%;
+	}
+}
+
+.fbox {
+	.fbox-icon {
+		img {
+			max-width: 2rem;
+			height: 1.25rem;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}

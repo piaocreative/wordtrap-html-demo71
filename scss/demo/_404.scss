@@ -1,0 +1,44 @@
+/* ----------------------------------------------------------------
+
+	404.scss
+
+-----------------------------------------------------------------*/
+.error-404 {
+    position: relative;
+
+    .error-content {
+        position: absolute;
+        left: -6rem;
+        right: 0;
+        bottom: 23rem;
+    
+        a {
+            font-family: $heading-font;
+            font-weight: 600;
+            font-size: 0.875rem;
+            letter-spacing: 0.1rem;
+            padding: 1rem 2rem;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .error-banner {
+            img {
+                height: 40rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .error-banner {
+            img {
+                height: 25rem;
+            }
+        }
+
+        .error-content {
+            left: -3rem;
+            bottom: 12rem;
+        }
+    }
+}

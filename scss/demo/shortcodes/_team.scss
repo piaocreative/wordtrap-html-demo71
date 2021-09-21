@@ -1,0 +1,76 @@
+
+/* ----------------------------------------------------------------
+
+	team.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Team
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for team pages. Thanks!
+-----------------------------------------------------------------*/
+
+.team {
+    position: relative;
+    padding: 0 3rem;
+    z-index: 1;
+    margin: 0 1rem;
+
+    .team-image {
+        img {
+            width: 100%;
+        }
+
+        &:after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 50%;
+            top: 3rem;
+            left: 0;
+            background-color: #fff;
+            display: inline-block;
+            z-index: -1;
+        }
+    }
+
+    .team-name {
+        font-family: $heading-font;
+        font-weight: 700;
+        color: $dark;
+    }
+
+    .team-rating {
+        line-height: 1;
+
+        i {
+            color: #ffcf4d;
+            font-size: 0.5rem;
+        }
+    }
+
+    p {
+        font-size: 0.75rem;
+        color: #c3c3c4;
+    }
+}
+
+.teams {
+    .slick-dots {
+        bottom: -4rem;
+
+        li {
+            button {
+                &:before {
+                    font-size: 0.65rem;
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}

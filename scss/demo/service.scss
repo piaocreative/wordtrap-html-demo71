@@ -1,0 +1,76 @@
+
+/* ----------------------------------------------------------------
+
+	service.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	service
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for service pages. Thanks!
+-----------------------------------------------------------------*/
+
+/* service
+-----------------------------------------------------------------*/
+
+.service {
+    padding: 7rem 2rem;
+
+    .service-details {
+        .service-title {
+            font-family: $heading-font;
+            font-weight: 700;
+            font-size: 1.3125rem;
+            color: #282828;
+        }
+
+        ul {
+            margin-left: 0.875rem;
+
+            li {
+                a {
+                    font-family: $body-font;
+                    font-weight: 300;
+                    font-size: $h6-font-size;
+                    text-decoration: none;
+                    color: $dark;
+
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+
+                i {
+                    font-size: 0.875rem;
+                    color: $theme-color;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+
+        .service-btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            color: $theme-color;
+            border: 1px solid $theme-color;
+            border-radius: 50%;
+        }
+    }
+
+    &:hover {
+        background-color: #f0f9fe;
+
+        .service-title {
+            color: $theme-color;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        padding: 2rem;
+    }
+}

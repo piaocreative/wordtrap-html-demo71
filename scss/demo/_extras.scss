@@ -1,0 +1,101 @@
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+.carousel-indicator {
+	a {
+		font-size: 0.5rem;
+		color: #506bb7;
+
+		&.active {
+			color: $white;
+		}
+	}
+}
+
+.about {
+	padding: 9.375rem 0;
+}
+
+.about-more {
+	position: absolute;
+    right: -3rem;
+    bottom: -2rem;
+    padding: 1rem;
+    background-color: #fff;
+
+	@include media-breakpoint-down(lg) {
+		position: relative;
+		left: 0;
+		bottom: 0;
+		padding: 1.5rem;
+	}
+}
+
+#appointment {
+	p {
+		font-size: 0.875rem;
+		color: $white;
+	}
+
+	form {
+		label {
+			min-width: 5rem;
+			font-size: 0.75rem;
+			font-family: $body-font;
+			font-weight: 300;
+			white-space: nowrap;
+			color: #90d2fd;
+			line-height: 1.5;
+		}
+	}
+
+	button {
+		font-size: 0.875rem;
+		font-weight: 700;
+	}
+
+	span {
+		font-family: $body-font;
+		font-size: 0.75rem;
+		color: #90d2fd;
+	}
+}
+
+
+#subscribe {
+	input{
+		border-bottom: 1px solid $white;
+	}
+
+	input[type=text], input[type=email] {
+		height: 3rem;
+	}
+
+	label {
+		color: $white;
+		font-size: 0.8rem;
+		font-family: $body-font;
+		display: block;
+		margin-bottom: -1rem;
+	}
+
+	button {
+		font-size: 0.8rem;
+		padding: 1.2rem 2.5rem;
+		font-family: $body-font;
+		font-weight: 700;
+		letter-spacing: 0.05rem;
+
+		i {
+			font-size: 0.9rem;
+			margin-left: 1rem;
+		}
+	}
+}

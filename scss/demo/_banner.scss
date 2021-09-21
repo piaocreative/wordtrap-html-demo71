@@ -1,0 +1,60 @@
+
+/* ----------------------------------------------------------------
+
+	banner.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Banner
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for banner. Thanks!
+-----------------------------------------------------------------*/
+
+
+#banner {
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+        @include media-breakpoint-down(lg) {
+            &.banner {
+                height: 45rem;
+            }
+        }
+    }
+
+    .video-btn {
+        position: absolute;
+        right: 20%;
+        top: 56.5%;
+        
+         a {
+             padding: 3rem;
+         }
+    }
+
+    @include media-breakpoint-down(lg) {
+        &.about-banner {
+            img {
+                height: 66rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &.about-banner {
+            img {
+                height: 54rem;
+            }
+        }
+    }
+}
