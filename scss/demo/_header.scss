@@ -59,7 +59,7 @@
 		&:nth-child(2) {
 			width: 6rem;
 			height: auto;
-			margin-left: 12rem;
+			margin-left: 10vw;
 
 			@include media-breakpoint-down(lg) {
 				margin-left: 0;
@@ -87,6 +87,7 @@
 		text-transform: $primary-menu-font-tt;
 		text-align: center;
 		padding: 1.3rem;
+		white-space: nowrap;
 
 		&:hover {
 			color: $theme-color;
@@ -118,6 +119,7 @@
 		font-weight: 400;
 		color: #484861;		
 		line-height: 1;
+		white-space: nowrap;
 
 		&:hover {
 			color: $primary;

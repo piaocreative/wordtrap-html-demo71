@@ -12,7 +12,7 @@
 	background-color: $theme-color;
 	padding: 2.5rem;
 	position: absolute;
-	bottom: 0;
+	bottom: 0.5rem;
 	width: 72.5%;
 
 	@include media-breakpoint-down(lg) {
