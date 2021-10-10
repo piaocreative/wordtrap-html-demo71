@@ -52,7 +52,6 @@
 		label {
 			min-width: 5rem;
 			font-size: 0.75rem;
-			font-family: $body-font;
 			font-weight: 300;
 			white-space: nowrap;
 			color: #90d2fd;
@@ -66,7 +65,6 @@
 	}
 
 	span {
-		font-family: $body-font;
 		font-size: 0.75rem;
 		color: #90d2fd;
 	}
@@ -85,7 +83,6 @@
 	label {
 		color: $white;
 		font-size: 0.8rem;
-		font-family: $body-font;
 		display: block;
 		margin-bottom: -1rem;
 	}
@@ -93,7 +90,6 @@
 	button {
 		font-size: 0.8rem;
 		padding: 1.2rem 2.5rem;
-		font-family: $body-font;
 		font-weight: 700;
 		letter-spacing: 0.05rem;
 

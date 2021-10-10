@@ -23,7 +23,6 @@
 
     .service-details {
         .service-title {
-            font-family: $heading-font;
             font-weight: 700;
             font-size: 1.3125rem;
             color: #282828;
@@ -34,10 +33,8 @@
 
             li {
                 a {
-                    font-family: $body-font;
                     font-weight: 300;
                     font-size: $h6-font-size;
-                    text-decoration: none;
                     color: $dark;
 
                     &:hover {

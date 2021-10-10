@@ -106,6 +106,10 @@ h1 {
 	line-height: $line-height-base;
 }
 
+.row {
+	display: flex !important;
+}
+
 // h5,
 // h6 { margin-bottom: 1.25rem; }
 
@@ -130,5 +134,6 @@ i {
 }
 
 a {
+	text-decoration: none;
 	@include transition(color 0.3s ease-in-out);
 }

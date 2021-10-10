@@ -116,7 +116,6 @@
 	.nav-link {
 		font-family: $heading-font;
 		font-size: 1rem;
-		font-weight: 400;
 		color: #484861;		
 		line-height: 1;
 		white-space: nowrap;
@@ -210,9 +209,7 @@
 		padding-right: 2rem;
 
 		a {
-			font-family: $body-font;
 			font-size: 0.875rem;
-			font-weight: 400;
 			color: #6b6b6b;
 
 			i {

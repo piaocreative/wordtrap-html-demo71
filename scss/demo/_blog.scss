@@ -31,7 +31,6 @@
 
 .post-content {
 	.entry-title {
-		font-family: $heading-font;
 		line-height: 1.35;
 		font-weight: 700;
 	}
@@ -39,17 +38,14 @@
 	.entry-meta {
 		p {
 			font-size: 0.75em;
-			text-decoration:none;
 			color: #b4b4b4;
 		}
 	}
 
 	.entry-categories {
 		a {
-			font-family: $body-font;
 			font-size: 0.75rem;
 			font-weight: 300;
-			text-decoration: none;
 			padding: 0.5rem 1rem;
 			background-color: #effaff;
 		}

@@ -20,12 +20,10 @@
 .product-menu {
 	li {
 		a {
-			font-family: $body-font;
 			font-size: 0.875rem;
 			color: $dark;
 			padding: 0.8rem 3rem;
 			border: 1px solid #e2e2e2;
-			text-decoration: none;
 
 			&:hover {
 				color: $theme-color;
@@ -68,7 +66,6 @@
 	.product-info {
 		font-weight: 500;
 		font-size: .75rem;
-		font-family: $body-font;
 		font-weight: 300;
 		color: #c9c9c9;
 		line-height: 1.5;
