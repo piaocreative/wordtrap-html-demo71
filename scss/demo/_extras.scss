@@ -94,3 +94,16 @@
 		}
 	}
 }
+
+.slick-dots {
+	bottom: -3rem;
+
+	li {
+		button {
+			&:before {
+				font-size: 0.65rem;
+				color: $theme-color;
+			}
+		}
+	}
+}

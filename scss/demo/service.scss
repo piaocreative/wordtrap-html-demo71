@@ -21,6 +21,12 @@
 .service {
     padding: 7rem 2rem;
 
+    .service-icon {
+        img {
+            max-width: 1.875rem;
+        }
+    }
+
     .service-details {
         .service-title {
             font-weight: 700;
